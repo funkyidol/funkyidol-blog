@@ -1,4 +1,167 @@
-baseURL = 'https://funkyidol.in/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'congo'
+baseURL = "https://funkyidol.in/"
+languageCode = "en-us"
+title = "Funky Idol | Portfolio & Dev Blog"
+theme = "congo"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  blog = "/blog/:slug/"
+  portfolio = "/portfolio/:slug/"
+
+[privacy]
+  [privacy.vimeo]
+    enableDNT = true
+  [privacy.x]
+    enableDNT = true
+  [privacy.youTube]
+    privacyEnhanced = true
+
+[services]
+  [services.x]
+    disableInlineCSS = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  colorScheme = "congo"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = true
+  defaultThemeColor = "#0F172A"
+  enableSearch = true
+  enableCodeCopy = true
+  enableImageLazyLoading = true
+  enableImageWebp = true
+  enableQuicklink = true
+  fingerprintAlgorithm = "sha256"
+  mainSections = ["blog"]
+
+  [params.header]
+    layout = "hybrid"
+    showTitle = true
+
+  [params.footer]
+    showAppearanceSwitcher = true
+    showScrollToTop = true
+
+  [params.homepage]
+    layout = "page"
+    showRecent = true
+    recentLimit = 4
+
+  [params.article]
+    showDate = true
+    showDateUpdated = true
+    showAuthor = true
+    showBreadcrumbs = true
+    showDraftLabel = true
+    showHeadingAnchors = true
+    showPagination = true
+    invertPagination = false
+    showReadingTime = true
+    showTableOfContents = true
+    showTaxonomies = true
+    showWordCount = false
+    showComments = false
+
+  [params.list]
+    showBreadcrumbs = true
+    showSummary = true
+    showTableOfContents = false
+    showTaxonomies = true
+    groupByYear = true
+    paginationWidth = 1
+
+  [params.sitemap]
+    excludedKinds = ["taxonomy", "term"]
+
+  [params.taxonomy]
+    showTermCount = true
+
+[languages]
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    languageDirection = "ltr"
+    weight = 1
+    title = "Funky Idol"
+
+    [languages.en.params]
+      dateFormat = "2 January 2006"
+      description = "Kshitij’s portfolio and developer blog on building fast, resilient products."
+
+    [languages.en.params.author]
+      name = "Kshitij"
+      headline = "Building fast, resilient experiences at the edge."
+      bio = "Engineering lead shipping performant web apps, edge functions, and developer tooling."
+      image = "img/profile.jpg"
+      links = [
+        { github = "https://github.com/funkyidol" },
+        { linkedin = "https://www.linkedin.com/in/funkyidol" },
+        { x-twitter = "https://twitter.com/funkyidol" }
+      ]
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menus.main]]
+    name = "Portfolio"
+    pageRef = "portfolio"
+    weight = 10
+
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 20
+
+  [[menus.main]]
+    name = "About"
+    pageRef = "about"
+    weight = 30
+
+  [[menus.main]]
+    identifier = "search"
+    weight = 90
+    [menus.main.params]
+      action = "search"
+
+  [[menus.main]]
+    name = "Contact"
+    url = "mailto:hello@funkyidol.in"
+    weight = 100
+
+  [[menus.footer]]
+    name = "Portfolio"
+    pageRef = "portfolio"
+    weight = 10
+
+  [[menus.footer]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 20
+
+  [[menus.footer]]
+    name = "About"
+    pageRef = "about"
+    weight = 30
