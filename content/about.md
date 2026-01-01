@@ -1,6 +1,9 @@
 ---
 title: "About"
 description: "Engineering Manager building accessibility-first products, specializing in smart glasses and Android."
+showDate: false
+showReadingTime: false
+showWordCount: false
 ---
 
 {{< figure src="/images/headshot.jpg" alt="Kshitij Aggarwal" caption="" class="about-headshot" >}}

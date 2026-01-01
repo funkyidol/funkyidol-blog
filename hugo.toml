@@ -1,6 +1,6 @@
 baseURL = "https://funkyidol.in/"
 languageCode = "en-us"
-title = "Funky Idol | Portfolio & Dev Blog"
+title = "Kshitij Aggarwal | Portfolio & Dev Blog"
 theme = "congo"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -102,7 +102,7 @@ summaryLength = 0
     languageName = "English"
     languageDirection = "ltr"
     weight = 1
-    title = "Funky Idol"
+    # title = "Funky Idol"
 
     [languages.en.params]
       dateFormat = "2 January 2006"
