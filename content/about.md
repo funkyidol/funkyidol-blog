@@ -4,9 +4,10 @@ description: "Engineering Manager building accessibility-first products, special
 showDate: false
 showReadingTime: false
 showWordCount: false
+showTableOfContents: false
 ---
 
-{{< figure src="/images/headshot.jpg" alt="Kshitij Aggarwal" caption="" class="about-headshot" >}}
+![Headshot](/headshot.jpg?height=300#center)
 
 ## Hi, I’m Kshitij
 

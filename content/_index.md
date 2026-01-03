@@ -1,12 +1,12 @@
 ---
-title: "Kshitij Aggarwal" 
+title: "Kshitij Aggarwal"
 description: "Engineering Manager building accessibility-first products for smart glasses and Android."
 showDate: false
 showReadingTime: false
 showWordCount: false
 ---
 
-{{< figure src="/images/headshot.jpg" alt="Kshitij Aggarwal" class="rounded-full w-28" >}}
+![Headshot](/headshot.jpg?height=300#center)
 
 ## Engineering Manager — smart glasses, accessibility, Android.
 
@@ -73,7 +73,7 @@ For topics and materials, see **[Speaking](/speaking/)**.
 
 ## Explore
 
-- **[About](/about/)** — background, principles, and interests  
-- **[Portfolio](/portfolio/)** — selected work  
-- **[Resume](/resume/)** — experience overview  
+- **[About](/about/)** — background, principles, and interests
+- **[Portfolio](/portfolio/)** — selected work
+- **[Resume](/resume/)** — experience overview
 - **[Contact](/contact/)** — consulting and collaboration

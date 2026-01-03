@@ -28,17 +28,18 @@ P.S. - The following details are Android specific but can be easily translated f
 Part of the core feature set, automatic crash logging is what you get the moment you integrate Crashlytics in your project. You can find the integration steps [here](https://firebase.google.com/docs/crashlytics/get-started?platform=android). If you want to exclude debug builds from polluting your crash logs during active development, you can follow the steps [here](https://firebase.google.com/docs/crashlytics/customize-crash-reports?platform=android#enable_opt-in_reporting).
 - Non-Fatal Logging:
 Non-Fatal logging is where we start using the advanced features of Crashlytics which helps in diagnosing and fixing issues beyond the crashes logged while the app was being used. When exceptions are logged manually in Firebase, they are logged as non-fatals. The best way to use non-fatals in your app is to log all exceptions generated in the catch section of the try/catch block. Additionally, we also create exceptions and log them in situations where our app is in an undesirable state and needs to be examined for the cause and determine its effect on the app.
-
+```kotlin
         try {
               methodThatThrows()
           } catch (e: Exception) {
               Crashlytics.logException(e)
               // handle your exception here
           }
+```
 
 - Debug Logging:
 We use Timber for managing logs on Android and it makes it very easy for us to manage our logging in debug & production versions. The following configuration prints the logs to the console in the debug version, but in the production versions, it sends the debug logs along with the exception to Firebase.
-
+```kotlin
         override fun onCreate() {
               super.onCreate()
                  if (!BuildConfig.DEBUG) {
@@ -59,7 +60,8 @@ We use Timber for managing logs on Android and it makes it very easy for us to m
                  } else return
               }
           }
-
+```
+ 
 - User Id/Email tagging:
 Firebase has the ability to attach the logs collected from a particular user to their unique UserId. This allows us to diagnose and fix issues reported to us by our users especially during the beta test phase. In Firebase console, we have the ability to filter crashes and non-fatal logs for a particular user.
 `Crashlytics.setUserIdentifier(userId)`

@@ -1,6 +1,6 @@
 baseURL = "https://funkyidol.in/"
 languageCode = "en-us"
-title = "Kshitij Aggarwal | Portfolio & Dev Blog"
+title = "Kshitij Aggarwal"
 theme = "congo"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
