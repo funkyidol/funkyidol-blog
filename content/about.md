@@ -5,6 +5,7 @@ showDate: false
 showReadingTime: false
 showWordCount: false
 showTableOfContents: false
+type: page
 ---
 
 ![Headshot](/headshot.jpg?height=300#center)
