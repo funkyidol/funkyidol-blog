@@ -10,7 +10,7 @@ summaryLength = 30
 
 [permalinks]
   blog = "/blog/:slug/"
-  portfolio = "/portfolio/:slug/"
+  # portfolio = "/portfolio/:slug/"
 
 [taxonomies]
   tag = "tags"
@@ -91,10 +91,10 @@ summaryLength = 30
     url = "/"
     weight = 1
 
-  [[menus.main]]
-    name = "Portfolio"
-    pageRef = "portfolio"
-    weight = 10
+  # [[menus.main]]
+  #   name = "Portfolio"
+  #   pageRef = "portfolio"
+  #   weight = 10
 
   [[menus.main]]
     name = "Blog"
@@ -117,10 +117,10 @@ summaryLength = 30
     url = "mailto:hello@funkyidol.in"
     weight = 100
 
-  [[menus.footer]]
-    name = "Portfolio"
-    pageRef = "portfolio"
-    weight = 10
+  # [[menus.footer]]
+  #   name = "Portfolio"
+  #   pageRef = "portfolio"
+  #   weight = 10
 
   [[menus.footer]]
     name = "Blog"

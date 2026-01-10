@@ -1,0 +1,74 @@
+/*
+  Site typography controls.
+
+  Congo bundles this file automatically (see theme head partial: resources.Get "css/custom.css").
+
+  Tweak values in :root to control typography consistently across:
+  - `content/_index.md` (homepage)
+  - `content/about.md`
+  - blog posts under `content/blog/*`
+*/
+
+:root {
+  /* Global base (affects all rem-based sizes across the site). */
+  --fi-font-size-root: 12pt;
+
+  /* Body text inside content (`.prose`). */
+  --fi-prose-font-size: 1rem;
+  --fi-prose-line-height: 1.75;
+
+  /* Headings inside content (`.prose`). */
+  --fi-prose-h1-size: clamp(2rem, 1.6rem + 1.2vw, 2.75rem);
+  --fi-prose-h2-size: clamp(1.5rem, 1.25rem + 0.8vw, 2.125rem);
+  --fi-prose-h3-size: clamp(1.25rem, 1.1rem + 0.5vw, 1.625rem);
+  --fi-prose-h4-size: 1.125rem;
+
+  /* Lead block (`{{< lead >}}` shortcode). */
+  --fi-lead-font-size: 1.2rem;
+  --fi-lead-line-height: 1.6;
+
+  /* Code blocks + inline code inside `.prose`. */
+  --fi-code-font-size: 0.95em;
+  --fi-pre-font-size: 0.92em;
+}
+
+html {
+  font-size: var(--fi-font-size-root);
+}
+
+/* Content typography (Congo wraps content in `.prose`). */
+.prose {
+  font-size: var(--fi-prose-font-size);
+  line-height: var(--fi-prose-line-height);
+}
+
+.prose h1 {
+  font-size: var(--fi-prose-h1-size);
+}
+
+.prose h2 {
+  font-size: var(--fi-prose-h2-size);
+}
+
+.prose h3 {
+  font-size: var(--fi-prose-h3-size);
+}
+
+.prose h4 {
+  font-size: var(--fi-prose-h4-size);
+}
+
+/* Lead block used on the homepage. */
+.lead {
+  font-size: var(--fi-lead-font-size);
+  line-height: var(--fi-lead-line-height);
+}
+
+/* Code sizing tweaks for better readability with larger base fonts. */
+.prose code {
+  font-size: var(--fi-code-font-size);
+}
+
+.prose pre {
+  font-size: var(--fi-pre-font-size);
+}

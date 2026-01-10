@@ -4,7 +4,7 @@ description: "Engineering Manager building accessibility-first products, special
 showDate: false
 showReadingTime: false
 showWordCount: false
-showTableOfContents: false
+showTableOfContents: true
 type: page
 ---
 
