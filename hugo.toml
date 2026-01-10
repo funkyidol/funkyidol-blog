@@ -1,13 +1,9 @@
 baseURL = "https://funkyidol.in/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Kshitij Aggarwal | funkyidol.in"
 theme = "congo"
-defaultContentLanguage = "en"
 enableRobotsTXT = true
-summaryLength = 0
-
-[pagination]
-  pagerSize = 10
+summaryLength = 30
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -15,28 +11,6 @@ summaryLength = 0
 [permalinks]
   blog = "/blog/:slug/"
   portfolio = "/portfolio/:slug/"
-
-[privacy]
-  [privacy.vimeo]
-    enableDNT = true
-  [privacy.x]
-    enableDNT = true
-  [privacy.youTube]
-    privacyEnhanced = true
-
-[services]
-  [services.x]
-    disableInlineCSS = true
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    noClasses = false
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 4
 
 [taxonomies]
   tag = "tags"
@@ -53,6 +27,21 @@ summaryLength = 0
   enableQuicklink = true
   fingerprintAlgorithm = "sha256"
   mainSections = ["blog"]
+
+  dateFormat = "2 January 2006"
+  description = "Kshitij’s portfolio and developer blog on building fast, resilient products."
+
+  [params.author]
+    name = "Kshitij Aggarwal"
+    # headline = "Engineering Manager — accessibility-first products (smart glasses + Android)."
+    # bio = "I build accessibility-first products—currently software for smart glasses that helps blind and low-vision people move through the world more independently. With 18 years in mobile engineering, I've shipped production apps end-to-end, led teams through scale, and built systems that keep quality high as velocity increases."
+    # image = "headshot.jpg"
+    links = [
+      { github = "https://github.com/funkyidol" },
+      { linkedin = "https://www.linkedin.com/in/kshitij-aggarwal/" },
+      { mastodon = "https://androiddev.social/@funkyidol" },
+      { bluesky = "https://bsky.app/profile/funkyidol01.bsky.social" }
+    ]
 
   [params.header]
     layout = "hybrid"
@@ -95,29 +84,6 @@ summaryLength = 0
 
   [params.taxonomy]
     showTermCount = true
-
-[languages]
-  [languages.en]
-    languageCode = "en"
-    languageName = "English"
-    languageDirection = "ltr"
-    weight = 1
-    # title = "Funky Idol"
-
-    [languages.en.params]
-      dateFormat = "2 January 2006"
-      description = "Kshitij’s portfolio and developer blog on building fast, resilient products."
-
-    [languages.en.params.author]
-      name = "Kshitij"
-      headline = "Building fast, resilient experiences at the edge."
-      bio = "Engineering lead shipping performant web apps, edge functions, and developer tooling."
-      image = "img/profile.jpg"
-      links = [
-        { github = "https://github.com/funkyidol" },
-        { linkedin = "https://www.linkedin.com/in/funkyidol" },
-        { x-twitter = "https://twitter.com/funkyidol" }
-      ]
 
 [menus]
   [[menus.main]]
