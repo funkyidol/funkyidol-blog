@@ -10,7 +10,7 @@ type: page
 
 ![Headshot](/headshot.jpg?height=300#center)
 
-## Hi, I’m Kshitij
+## Hi, I’m Kshitij Aggarwal
 
 I build **accessibility-first products**—currently **software for smart glasses** that helps **blind and low-vision people** move through the world more independently. With **18 years** in mobile engineering, I’ve shipped production apps end-to-end, led teams through scale, and built systems that keep quality high as velocity increases.
 

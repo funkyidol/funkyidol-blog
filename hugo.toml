@@ -10,6 +10,7 @@ summaryLength = 30
 
 [permalinks]
   blog = "/blog/:slug/"
+  contact = "/contact/:slug/"
   # portfolio = "/portfolio/:slug/"
 
 [taxonomies]
@@ -114,7 +115,7 @@ summaryLength = 30
 
   [[menus.main]]
     name = "Contact"
-    url = "mailto:hello@funkyidol.in"
+    pageRef = "contact"
     weight = 100
 
   # [[menus.footer]]
@@ -131,3 +132,8 @@ summaryLength = 30
     name = "About"
     pageRef = "about"
     weight = 30
+
+  [[menus.footer]]
+    name = "Contact"
+    pageRef = "contact"
+    weight = 40
