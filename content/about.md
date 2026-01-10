@@ -53,31 +53,6 @@ In parallel, I also consult with early-stage startups to strengthen engineering 
 
 ---
 
-## What I’m known for
-
-* Android app development (Kotlin, modern Android)
-* Engineering leadership & delivery
-
-* Mobile product ownership
-* Smart glasses expertise
-* Accessibility engineering
-* Public speaking & mentoring
-
----
-
 ## Outside work
 
 I’m interested in **coffee**, **horology**, **ergonomic keyboards**, **gaming**, and **audio**. I also support **stray dog welfare**.
-
----
-
-## Work with me
-
-If you’re building a product and want a practical partner to help you ship with strong engineering fundamentals, I can help with:
-
-* mobile engineering systems, architecture & guidelines
-* team coaching (process, delivery, engineering culture)
-* accessibility-first product and implementation reviews
-* smart-glasses / assistive-tech direction and execution
-
-👉 Best way to reach me: **[Contact](/contact)** (or email / socials below).
