@@ -23,7 +23,7 @@ I build accessibility-first products—currently software for smart glasses that
 {{< /lead >}}-->
 
 <!--{{< button href="/contact/" >}}Work with me (consulting){{< /button >}}
-{{< button href="/portfolio/" >}}View portfolio{{< /button >}}
+{{< button href="/projects/" >}}View projects{{< /button >}}
 {{< button href="/blog/" >}}Read the blog{{< /button >}}-->
 
 ---
