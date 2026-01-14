@@ -10,9 +10,9 @@ canonicalURL: "https://dev.to/funkyidol/beyond-the-visuals-why-audio-ux-is-criti
 
 Audio UX is often treated as an afterthought in application development, but in Android XR and smart glass experiences, it has to be a priority.
 
-I recently built my first Android XR sample app. Drawing from my years of experience building software for smart glasses an Envision AI, one truth remains constant: **robust Audio feedback is the difference between a novelty demo and a successful daily-driver product.**
+I recently built my first Android XR sample app. Drawing from my years of experience building software for smart glasses an Envision AI, one truth remains constant: **robust Audio feedback is the difference between a novelty demo and a successful daily driver product.**
 
-## The Why: It’s Not Just About the Screen
+## The Why: It is Not Just About the Screen
 
 Why should developers prioritize audio in a visual medium?
 
@@ -47,15 +47,15 @@ To build a cohesive Audio UX, your application needs to cover these bases:
     
 - **User requested status updates:**
     
-    User may not always be paying attention to what's happening in the app and forget what the current state of the app. A single tap by the user should be able to tell the user about the current status of the app or the result of their last interaction.
+    User may not always be paying attention to what is happening in the app and forget what the current state of the app. A single tap by the user should be able to tell the user about the current status of the app or the result of their last interaction.
 
-## Verbal vs. Non-Verbal
+## Verbal vs. Nonverbal
 
-While chimes and beeps (Earcons) are great for clicks, they have a steep learning curve for complex status updates. Don't force users to memorize what "Beep-Boop-Boop" means.
+While chimes and beeps (Earcons) are great for clicks, they have a steep learning curve for complex status updates. Do not force users to memorize what "Beep-Boop-Boop" means.
 
 - **Rule of Thumb:** Use sounds for actions (clicks, swipes), and use **Text-to-Speech (TTS)** for information. It is always clearer to speak the output in the user's language than to rely on abstract sounds.
     
 
 ## Conclusion
 
-With the advent of Android XR, we are going to see a flood of applications targeting head-worn devices. While current marketing hype focuses heavily on the visual fidelity of VR and AR, the most successful applications will be the ones that master the invisible interface: **Audio.**
+With the advent of Android XR, we are going to see a flood of applications targeting head worn devices. While current marketing hype focuses heavily on the visual fidelity of VR and AR, the most successful applications will be the ones that master the invisible interface: **Audio.**

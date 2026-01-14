@@ -15,7 +15,7 @@ I speak about accessibility, Android/mobile engineering, and building developer 
 
 ## Topics
 
-* Accessibility-first product engineering
+* Accessibility first product engineering
 * Android (Kotlin, modern app architecture, performance)
 * Building engineering systems (quality, delivery, reviews, scaling teams)
 * Smart glasses / assistive tech

@@ -13,7 +13,7 @@ weight: 10
 
 **Summary:**
 
-Ally is a personalized AI assistant built for accessibility and independence, functioning across smartphones, the web, and smart glasses. Designed especially for blind and low-vision users, it acts as your eyes and brain—describing surroundings, reading text, getting the weather or their schedule and answering context-aware questions. Unlike generic assistants, Ally learns your specific preferences and adopts custom personas (like a professional butler or a witty friend) to offer a truly tailored, human-like experience.
+Ally is a personalized AI assistant built for accessibility and independence, functioning across smartphones, the web, and smart glasses. Designed especially for blind and low vision users, it acts as your eyes and brain—describing surroundings, reading text, getting the weather or their schedule and answering context aware questions. Unlike generic assistants, Ally learns your specific preferences and adopts custom personas (like a professional butler or a witty friend) to offer a truly tailored, human like experience.
 
 Currently building the Android product as the Lead Engineer and Leading the whole Engineering team on all platforms including the Solos Smart Glasses.
 
@@ -21,7 +21,7 @@ Currently building the Android product as the Lead Engineer and Leading the whol
 
 * Android (Kotlin + Compose UI)
 * MVI + Clean Architecture
-* Accessibility-first UX
+* Accessibility first UX
 * Custom LLM + tool orchestration
 
 **Impact:**

@@ -1,6 +1,6 @@
 ---
 title: "Kshitij Aggarwal"
-description: "Engineering Manager building accessibility-first products, specializing in smart glasses and Android."
+description: "Engineering Manager building accessibility first products, specializing in smart glasses and Android."
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -9,9 +9,9 @@ showTableOfContents: false
 
 ![Headshot](/headshot.jpg?height=300#center)
 
-## Hi, I’m Kshitij
+## Hi, I am Kshitij
 
-### I'm an
+### I am an
 
 * Android Expert
 * Accessibility Specialist
@@ -19,7 +19,7 @@ showTableOfContents: false
 * Product/Engineering Manager
 
 <!--{{< lead >}}
-I build accessibility-first products—currently software for smart glasses that helps blind and low-vision people move through the world more independently. With 18 years in mobile engineering, I’ve shipped production apps end-to-end, led teams through scale, and built systems that keep quality high as velocity increases.
+I build accessibility first products—currently software for smart glasses that helps blind and low vision people move through the world more independently. With 18 years in mobile engineering, I have shipped production apps end to end, led teams through scale, and built systems that keep quality high as velocity increases.
 {{< /lead >}}-->
 
 <!--{{< button href="/contact/" >}}Work with me (consulting){{< /button >}}
@@ -32,15 +32,15 @@ I build accessibility-first products—currently software for smart glasses that
 
 * Engineering Manager at **Envision AI** (smart glasses + assistive tech)
 * Shipped Android apps with **500K+ downloads**
-* Led and built multi award-winning accessibility apps, including **Google Play “Best Accessibility App”** and multiple **AppleVis** awards
+* Led and built multi award winning accessibility apps, including **Google Play “Best Accessibility App”** and multiple **AppleVis** awards
 
 ----->
 
 <!--## Current
 
-I’m an **Engineering Manager at Envision AI**, building software for smart glasses for the blind and low-vision community. My work sits at the intersection of **engineering leadership and product execution**: clarifying outcomes, aligning teams, and ensuring we ship reliably.
+I am an **Engineering Manager at Envision AI**, building software for smart glasses for the blind and low vision community. My work sits at the intersection of **engineering leadership and product execution**: clarifying outcomes, aligning teams, and ensuring we ship reliably.
 
-In parallel, I also consult with early-stage startups to strengthen engineering foundations:
+In parallel, I also consult with early stage startups to strengthen engineering foundations:
 
 * engineering systems (guidelines, architecture patterns, review standards)
 * delivery health (process, planning, release discipline)
@@ -50,14 +50,14 @@ In parallel, I also consult with early-stage startups to strengthen engineering 
 
 ## What I optimize for
 
-* **Ownership:** end-to-end responsibility, clear interfaces, fewer handoffs
+* **Ownership:** end to end responsibility, clear interfaces, fewer handoffs
 * **Maintainability:** clean, modular code that scales with product complexity
 * **Product thinking:** engineering decisions that improve real user outcomes
 * **Accessibility as a baseline:** designed in from day one, validated continuously-->
 
 <!------->
 
-## What I’m known for
+## What I am known for
 
 * Android app development (Kotlin, modern Android)
 * Engineering leadership & delivery
@@ -70,18 +70,18 @@ In parallel, I also consult with early-stage startups to strengthen engineering 
 
 <!--## Outside work
 
-I’m interested in **coffee**, **horology**, **ergonomic keyboards**, **gaming**, and **audio**. I also support **stray dog welfare**.
+I am interested in **coffee**, **horology**, **ergonomic keyboards**, **gaming**, and **audio**. I also support **stray dog welfare**.
 
 ----->
 
 ## Work with me
 
-If you’re building a product and want a practical partner to help you ship with strong engineering fundamentals, I can help with:
+If you are building a product and want a practical partner to help you ship with strong engineering fundamentals, I can help with:
 
 * mobile engineering systems, architecture & guidelines
 * team coaching (process, delivery, engineering culture)
-* accessibility-first product and implementation reviews
-* smart-glasses / assistive-tech direction and execution
+* accessibility first product and implementation reviews
+* smart glasses / assistive tech direction and execution
 
 👉 Best way to reach me: **[Contact](/contact/)** (or email / socials below).
 
