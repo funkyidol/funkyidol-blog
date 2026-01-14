@@ -32,7 +32,7 @@ I build accessibility first products—currently software for smart glasses that
 
 * Engineering Manager at **Envision AI** (smart glasses + assistive tech)
 * Shipped Android apps with **500K+ downloads**
-* Led and built multi award winning accessibility apps, including **Google Play “Best Accessibility App”** and multiple **AppleVis** awards
+* Led and built multi award winning accessibility apps, including **Google Play "Best Accessibility App"** and multiple **AppleVis** awards
 
 ----->
 

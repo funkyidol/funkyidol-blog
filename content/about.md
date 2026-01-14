@@ -12,13 +12,13 @@ type: page
 
 ## Hi, I'm Kshitij Aggarwal
 
-I build **accessibility first products**—currently **software for smart glasses** that helps **blind and low vision people** move through the world more independently. With **18 years** in mobile engineering, I have shipped production apps end to end, led teams through scale, and built systems that keep quality high as velocity increases.
+I build **accessibility first products**—currently **software for smart glasses** that helps **blind and low vision people** move through the world more independently. With **18 years** of industry experience in Mobile Engineering and Consulting, I have shipped production apps end to end, led teams through scale, and built systems that keep quality high as velocity increases.
 
 **Snapshot**
 
-* Engineering Manager at **Envision AI** (smart glasses + assistive tech)
+* Engineering leadership in assistive tech and smart glasses
 * Shipped Android apps with **500K+ downloads**
-* Led multi award winning accessibility apps, including **Google Play “Best Accessibility App”** and multiple **AppleVis** awards
+* Led multi award winning accessibility apps, including **Google Play "Best Accessibility App"** and multiple **AppleVis** awards
 
 ---
 
@@ -38,7 +38,7 @@ In parallel, I also consult with early stage startups to strengthen engineering 
 
 ### High-level timeline
 
-* **Present →** Engineering Manager, Envision AI — smart glasses and accessibility first mobile products
+* **Present →** Engineering leadership for smart glasses and accessibility first mobile products
 * **Earlier →** Shipped mobile apps across domains, including **2 Android apps built end to end** with **500K+ downloads**
 * **Highlights →** Led and shipped award winning accessibility experiences (Google Play + AppleVis)
 
@@ -55,4 +55,9 @@ In parallel, I also consult with early stage startups to strengthen engineering 
 
 ## Outside work
 
-I am interested in **coffee**, **horology**, **ergonomic keyboards**, **gaming**, and **audio**. I also support **stray dog welfare**.
+* Coffee
+* Horology
+* Ergonomic keyboards
+* Gaming
+* Audiophile
+* Supporting stray dog welfare
