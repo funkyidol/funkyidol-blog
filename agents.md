@@ -9,8 +9,8 @@
 - Legacy path: `/portfolio/` is supported via an alias on the projects section.
 
 ## Common commands
-- Local preview: `hugo server -D` (live reload, serves drafts).
-- Production build: `hugo --gc --minify` (also used in `build.sh` for Cloudflare Workers).
+- Local preview: `hugo server --navigateToChanged` (live reload, serves drafts).
+- Compile Test: `hugo --gc --minify` (also used in `build.sh` for Cloudflare Workers).
 
 ## Content conventions
 - Homepage: `content/_index.md` uses `profile` and `button` shortcodes.
@@ -30,3 +30,6 @@
 
 ## Deployment
 - Target: Cloudflare Workers (see `build.sh` and `wrangler.toml`).
+
+## Test
+Always run "compile test" after each edit.

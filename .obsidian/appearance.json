@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Catppuccin",
+  "accentColor": "#e00b0b",
+  "interfaceFontFamily": "IBM Plex Sans",
+  "textFontFamily": "IBM Plex Sans",
+  "monospaceFontFamily": "JetBrains Mono NL",
+  "baseFontSize": 18
+}

@@ -6,7 +6,7 @@ draft: false
 tags: ["androiddev", "androidxr", "smartglasses", "a11y"]
 canonicalURL: "https://dev.to/funkyidol/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2"
 ---
-### Lessons learned from my first Android XR sample app.
+## Lessons learned from my first Android XR sample app.
 
 Audio UX is often treated as an afterthought in application development, but in Android XR and smart glass experiences, it has to be a priority.
 
