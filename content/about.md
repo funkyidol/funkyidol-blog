@@ -60,7 +60,7 @@ In parallel, I consult with early stage startups to strengthen engineering found
 ## Outside work
 
 * Coffee
-* Horology
+* Watch Enthusiast
 * Ergonomic keyboards
 * Gaming
 * Audiophile
