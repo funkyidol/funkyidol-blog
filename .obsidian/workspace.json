@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/blog_bundle_migration_plan.md",
+                "file": "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "blog_bundle_migration_plan"
+              "title": "index"
             }
           }
         ],
@@ -199,8 +199,8 @@
   },
   "active": "3ae96bcfd24b329e",
   "lastOpenFiles": [
-    "content/blog/2026-new-year-keyboard-upgrade/image3.jpeg",
     "docs/blog_bundle_migration_plan.md",
+    "content/blog/2026-new-year-keyboard-upgrade/image3.jpeg",
     "content/blog/2026-new-year-keyboard-upgrade/index.md",
     "archetypes/blog.md",
     "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_6d5f305682d4dc67.png",
@@ -212,7 +212,6 @@
     "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_bf1b2ec07dac5892.png",
     "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_bf1b2ec07dac5892.png",
     "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_718c108b4fd6d011.webp",
-    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_718c108b4fd6d011.webp",
     "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker",
     "resources/_gen/images/blog/testing-kimi-k2.5-for-real-world-coding-work",
     "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md",
