@@ -12,40 +12,40 @@ Define a safe bulk migration of blog posts to Congo page bundles, with a post tr
 ## Post tracker
 | ID | Phase | Source post | Target bundle path | Baseline permalink | FM image action | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| P01 | 1 | `content/blog/2026-new-year-keyboard-upgrade.md` | `content/blog/2026-new-year-keyboard-upgrade/index.md` | `/blog/2026-new-year-keyboard-upgrade/` | none | Planned |
-| P02 | 1 | `content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2.md` | `content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2/index.md` | `/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr/` | none | Planned |
-| P03 | 1 | `content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55.md` | `content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55/index.md` | `/blog/dual-booting-ubuntu-budgie-on-windows-laptop/` | none | Planned |
-| P04 | 1 | `content/blog/effective-logging-in-production-with-firebase-crashlytics-m27.md` | `content/blog/effective-logging-in-production-with-firebase-crashlytics-m27/index.md` | `/blog/effective-logging-in-production-with-firebase-crashlytics/` | none | Planned |
-| P05 | 1 | `content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha.md` | `content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md` | `/blog/exploring-camerax-api-beta-part-2-image-analysis/` | none | Planned |
-| P06 | 2 | `content/blog/exploring-camerax-beta-release-part-1-19hh.md` | `content/blog/exploring-camerax-beta-release-part-1-19hh/index.md` | `/blog/exploring-camerax-beta-part-1-basic-setup/` | none | Planned |
-| P07 | 2 | `content/blog/moving-away-from-gitflow-and-feature-branches-3cg0.md` | `content/blog/moving-away-from-gitflow-and-feature-branches-3cg0/index.md` | `/blog/moving-away-from-gitflow-and-feature-branches/` | none | Planned |
-| P08 | 2 | `content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5.md` | `content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5/index.md` | `/blog/novices-guide-to-dependency-injection-dagger2-part-1-introduction/` | none | Planned |
-| P09 | 2 | `content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop.md` | `content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop/index.md` | `/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits/` | none | Planned |
-| P10 | 2 | `content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27.md` | `content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27/index.md` | `/blog/why-becoming-staying-productive-in-india-is-difficult/` | none | Planned |
-| P11 | 3 | `content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc.md` | `content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/index.md` | `/blog/regolith-linux-my-descent-into-mouse-less-navigation/` | none | Planned |
-| P12 | 3 | `content/blog/timber-logging-performance-improvements-in-production-56k7.md` | `content/blog/timber-logging-performance-improvements-in-production-56k7/index.md` | `/blog/android-logging-performance-improvements-in-production/` | none | Planned |
-| P13 | 3 | `content/blog/Kimi 2.5 vs 5.2 Codex.md` | `content/blog/Kimi 2.5 vs 5.2 Codex/index.md` | `/blog/testing-kimi-k2.5-for-real-world-coding-work/` | rewrite `feature` to local filename, move image | Planned |
-| P14 | 3 | `content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker.md` | `content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md` | `/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/` | rewrite `feature` to local filename, move image | Planned |
+| P01 | 1 | `content/blog/2026-new-year-keyboard-upgrade.md` | `content/blog/2026-new-year-keyboard-upgrade/index.md` | `/blog/2026-new-year-keyboard-upgrade/` | none | Done |
+| P02 | 1 | `content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2.md` | `content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2/index.md` | `/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr/` | none | Done |
+| P03 | 1 | `content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55.md` | `content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55/index.md` | `/blog/dual-booting-ubuntu-budgie-on-windows-laptop/` | none | Done |
+| P04 | 1 | `content/blog/effective-logging-in-production-with-firebase-crashlytics-m27.md` | `content/blog/effective-logging-in-production-with-firebase-crashlytics-m27/index.md` | `/blog/effective-logging-in-production-with-firebase-crashlytics/` | none | Done |
+| P05 | 1 | `content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha.md` | `content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md` | `/blog/exploring-camerax-api-beta-part-2-image-analysis/` | none | Done |
+| P06 | 2 | `content/blog/exploring-camerax-beta-release-part-1-19hh.md` | `content/blog/exploring-camerax-beta-release-part-1-19hh/index.md` | `/blog/exploring-camerax-beta-part-1-basic-setup/` | none | Done |
+| P07 | 2 | `content/blog/moving-away-from-gitflow-and-feature-branches-3cg0.md` | `content/blog/moving-away-from-gitflow-and-feature-branches-3cg0/index.md` | `/blog/moving-away-from-gitflow-and-feature-branches/` | none | Done |
+| P08 | 2 | `content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5.md` | `content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5/index.md` | `/blog/novices-guide-to-dependency-injection-dagger2-part-1-introduction/` | none | Done |
+| P09 | 2 | `content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop.md` | `content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop/index.md` | `/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits/` | none | Done |
+| P10 | 2 | `content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27.md` | `content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27/index.md` | `/blog/why-becoming-staying-productive-in-india-is-difficult/` | none | Done |
+| P11 | 3 | `content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc.md` | `content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/index.md` | `/blog/regolith-linux-my-descent-into-mouse-less-navigation/` | none | Done |
+| P12 | 3 | `content/blog/timber-logging-performance-improvements-in-production-56k7.md` | `content/blog/timber-logging-performance-improvements-in-production-56k7/index.md` | `/blog/android-logging-performance-improvements-in-production/` | none | Done |
+| P13 | 3 | `content/blog/Kimi 2.5 vs 5.2 Codex.md` | `content/blog/Kimi 2.5 vs 5.2 Codex/index.md` | `/blog/testing-kimi-k2.5-for-real-world-coding-work/` | rewrite `feature` to local filename, move image | Done |
+| P14 | 3 | `content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker.md` | `content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md` | `/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/` | rewrite `feature` to local filename, move image | Done |
 
 ## Batch phases (5, 5, 4)
 ### Phase 1
-`P01` to `P05`
+`P01` to `P05` (Done)
 
 ### Phase 2
-`P06` to `P10`
+`P06` to `P10` (Done)
 
 ### Phase 3
-`P11` to `P14`
+`P11` to `P14` (Done)
 
 ## Migration rules
-1. Keep body content byte for byte unchanged.
+1. Keep body content byte for byte unchanged, except path rewrites for attached image references moved into the bundle.
 2. Preserve all front matter fields and format (YAML or TOML or JSON), except image path rewrites for `feature`, `cover`, `thumb`.
-3. Rewrite only site relative front matter image paths (`/blog/...`) to local filename (`"file.ext"`) after move.
+3. Rewrite site relative image paths (`/blog/...`) in front matter (`feature`, `cover`, `thumb`) and Markdown image references to local filenames (`"file.ext"`) after move.
 4. Keep `featureAlt` unchanged.
 5. Use `git mv` where practical for markdown and assets.
 6. Do not overwrite conflicts. Mark as skipped with reason.
 7. Skip posts with missing referenced image files and report them.
-8. Do not rewrite body `/blog/...` links.
+8. Rewrite only body image references that use `/blog/...`; do not rewrite non image body links.
 
 ## Permalink safety protocol
 1. Capture baseline permalink map using `hugo list all` before migration.
@@ -65,7 +65,9 @@ Define a safe bulk migration of blog posts to Congo page bundles, with a post tr
 - `content/blog/<basename>/index.md` exists.
 - original `content/blog/<basename>.md` no longer exists.
 - rewritten `feature` or `cover` or `thumb` no longer uses `/blog/...`.
+- rewritten Markdown image references no longer use `/blog/...`.
 - referenced front matter image exists in same bundle folder.
+- referenced body attached image exists in same bundle folder.
 
 ### Gate C: Per post integrity validation
 - front matter keys preserved except approved image adjustments and permalink preservation keys.
@@ -103,8 +105,8 @@ Migrate all Hugo blog posts in this repo to Congo's recommended page bundle stru
 ### Goal
 - Convert existing posts that use standalone Markdown files plus image paths in front matter
 - Move each post into its own leaf bundle folder with `index.md`
-- Move the referenced feature image into that same folder
-- Rewrite front matter so Congo uses page resources instead of site relative paths
+- Move all attached images (front matter and body image references) into that same folder
+- Rewrite front matter and body image references so Congo uses page resources instead of site relative paths
 - Preserve slug, URL behavior, dates, tags, and all content
 
 ### Target structure
@@ -122,7 +124,7 @@ Migrate all Hugo blog posts in this repo to Congo's recommended page bundle stru
 ### Rules
 1. Only process posts under `content/blog/`
 2. Only migrate posts that are regular Markdown files, not already bundled as `index.md` or `_index.md`
-3. Preserve the post body exactly
+3. Preserve the post body content, except attached image path rewrites required by migration
 4. Preserve all front matter fields except the image path adjustments described below
 5. Preserve git history as much as possible by using `git mv` where practical
 6. Do not change permalinks unintentionally
@@ -149,13 +151,17 @@ For each post file under `content/blog/**/*.md`:
 - If `cover` or `thumb` exist and use similar `/blog/...` paths, also rewrite them to just the filename if the file is moved into the bundle
 - Do not invent new front matter fields unless needed for permalink preservation
 
+### Body image changes
+- If Markdown contains image references like `![alt](/blog/some-folder/image.png)`, rewrite to local filename form `![alt](image.png)` after moving the image into the bundle.
+- Do not rewrite non image links in the body.
+
 ### Image move behavior
-- If `feature` contains a site relative path like `/blog/foo/bar.png`
+- For every attached image reference in front matter (`feature`, `cover`, `thumb`) and body Markdown image links:
   - locate the corresponding file in the repo
   - move that image into the new bundle folder
-  - rewrite front matter value to the image filename only
-- If multiple image fields point to different files, move all referenced files into the bundle folder
-- If the source image is already inside the target folder, only rewrite front matter
+- Rewrite each moved image reference to the local filename only
+- If multiple image references point to different files, move all referenced files into the bundle folder
+- If the source image is already inside the target folder, only rewrite the relevant references
 - Do not overwrite files silently; if name conflicts happen, report them
 
 ### Permalink safety
@@ -174,16 +180,17 @@ After migration:
 1. Verify every migrated post now exists as:
    - `content/blog/<post-name>/index.md`
 2. Verify every rewritten `feature` field points only to a local filename, not `/blog/...`
-3. Verify the referenced file exists inside the same folder as `index.md`
-4. Verify no Markdown content was lost
-5. Verify no duplicate copies of moved images remain unless necessary
-6. If there is a local Hugo build command in the repo, run it and report any content errors
-7. Report all skipped posts and why they were skipped
+3. Verify every rewritten body image reference points only to a local filename, not `/blog/...`
+4. Verify each referenced image file exists inside the same folder as `index.md`
+5. Verify no Markdown content was lost
+6. Verify no duplicate copies of moved images remain unless necessary
+7. If there is a local Hugo build command in the repo, run it and report any content errors
+8. Report all skipped posts and why they were skipped
 
 ### Edge cases
 - If a post has no `feature`, leave it alone except for bundling if required by the migration scope
 - If a post already lives in a bundle folder but uses `/blog/...` in front matter, only rewrite the front matter and move missing referenced assets into the bundle if needed
-- If a post references images in the body using absolute `/blog/...` paths, do not rewrite those unless explicitly requested
+- If a post references images in the body using absolute `/blog/...` paths, move and rewrite those image references to local filenames
 - If front matter is TOML or JSON instead of YAML, preserve the original format
 - Preserve quote style where practical, but correctness matters more than formatting fidelity
 

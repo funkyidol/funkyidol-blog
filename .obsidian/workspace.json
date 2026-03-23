@@ -11,14 +11,12 @@
             "id": "dd4fe81b6db3d3e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker.md",
-                "mode": "source",
-                "source": false
+                "file": "content/blog/2026-new-year-keyboard-upgrade/image3.jpeg"
               },
-              "icon": "lucide-file",
-              "title": "deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker"
+              "icon": "lucide-image",
+              "title": "image3"
             }
           },
           {
@@ -27,15 +25,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/Kimi 2.5 vs 5.2 Codex.md",
+                "file": "docs/blog_bundle_migration_plan.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Kimi 2.5 vs 5.2 Codex"
+              "title": "blog_bundle_migration_plan"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,41 +197,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dd4fe81b6db3d3e8",
+  "active": "3ae96bcfd24b329e",
   "lastOpenFiles": [
-    "resources/_gen/images",
-    "resources/_gen/assets",
-    "resources/_gen",
+    "content/blog/2026-new-year-keyboard-upgrade/image3.jpeg",
     "docs/blog_bundle_migration_plan.md",
-    "content/blog/Kimi 2.5 vs 5.2 Codex.md",
-    "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker.md",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_e252134f228276b6.jpg",
-    "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_e252134f228276b6.jpg",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_d8b2b0a906eb7d76.jpg",
-    "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_d8b2b0a906eb7d76.jpg",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_1724d80cc9a6d808.jpg",
-    "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_1724d80cc9a6d808.jpg",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_758dbf5d26cd932a.jpg",
-    "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_758dbf5d26cd932a.jpg",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_f4215fb35525695d.webp",
-    "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_f4215fb35525695d.webp",
+    "content/blog/2026-new-year-keyboard-upgrade/index.md",
+    "archetypes/blog.md",
+    "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_6d5f305682d4dc67.png",
+    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_6d5f305682d4dc67.png",
+    "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_df9b3cd66f18e8a9.png",
+    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_df9b3cd66f18e8a9.png",
+    "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_970ce9a6adaaa25a.png",
+    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_970ce9a6adaaa25a.png",
+    "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_bf1b2ec07dac5892.png",
+    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_bf1b2ec07dac5892.png",
+    "public/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_718c108b4fd6d011.webp",
+    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation/7s8evy2in8a8qyu1q69g_hu_718c108b4fd6d011.webp",
     "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker",
-    "resources/_gen/images/blog",
+    "resources/_gen/images/blog/testing-kimi-k2.5-for-real-world-coding-work",
     "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md",
     "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker",
-    "public/tags/docker-docker-compose-picoclaw-self-hosting-devops/index.xml",
-    "public/tags/docker-docker-compose-picoclaw-self-hosting-devops/page/1/index.html",
-    "public/tags/docker-docker-compose-picoclaw-self-hosting-devops/page/1",
-    "public/tags/docker-docker-compose-picoclaw-self-hosting-devops/page",
-    "public/tags/docker-docker-compose-picoclaw-self-hosting-devops/index.html",
+    "content/blog/Kimi 2.5 vs 5.2 Codex/index.md",
+    "content/blog/Kimi 2.5 vs 5.2 Codex",
+    "content/blog/timber-logging-performance-improvements-in-production-56k7/index.md",
+    "content/blog/timber-logging-performance-improvements-in-production-56k7",
+    "resources/_gen/images/blog/regolith-linux-my-descent-into-mouse-less-navigation",
+    "content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/index.md",
+    "content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc",
+    "content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27/index.md",
+    "content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27",
+    "content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop/index.md",
+    "content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop",
+    "content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5/index.md",
+    "content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5",
+    "content/blog/moving-away-from-gitflow-and-feature-branches-3cg0/index.md",
+    "content/blog/exploring-camerax-beta-release-part-1-19hh/index.md",
+    "content/blog/Kimi 2.5 vs 5.2 Codex.md",
+    "content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md",
+    "content/blog/effective-logging-in-production-with-firebase-crashlytics-m27/index.md",
+    "content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55/index.md",
+    "content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2/index.md",
+    "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker.md",
     "content/contact.md",
     "content/about.md",
     "content/blog/2026-new-year-keyboard-upgrade.md",
     "docs/post_discrepency.md",
     "docs/image_header_fix.md",
     "post_discrepency.md",
-    "content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2.md",
-    "a.md",
-    "content/projects/ally.md"
+    "content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2.md"
   ]
 }

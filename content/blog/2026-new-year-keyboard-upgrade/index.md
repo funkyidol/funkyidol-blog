@@ -4,6 +4,7 @@ draft: false
 title: "2026 New Year Keyboard Upgrade"
 summary: "Starting 2026 with a Ptron36 refresh: lazy lubed my soldered switches with Krytox 205g0 and upgraded to sculpted KLP Lamé keycaps for a pseudo key well feel."
 description: "Switch maintenance + keycap upgrade on a 36 key ergonomic board using Miryoku layers and the Workman layout."
+feature: "image3.jpeg"
 tags: ["keyboards", "ergonomics", "miryoku", "workman-layout", "mechanical-keyboards", "ergonomic-keyboard"]
 ---
 
@@ -23,7 +24,7 @@ So I went with **lazy lubing**: pressed the stem down and apply lube to the insi
 
 For lube, I used **Krytox GPL 205g0**, a common choice in the keyboard hobby.
 
-![Alt Text](/blog/2026-keyboard-upgrade/image1.jpeg)
+![Alt Text](image1.jpeg)
 
 ## The Upgrade: Keycaps That Fake a Key Well
 
@@ -33,12 +34,12 @@ But after talking to a few folks in the ergonomic keyboard community, I pivoted 
 
 I found a 3D printing service that could print them in resin. The shape makes the rows feel "guided", especially when reaching above/below the home row.
 
-![AltText](/blog/2026-keyboard-upgrade/image2.jpeg)
+![AltText](image2.jpeg)
 
 ## Result
 
 After lubing, the board feels noticeably smoother and the scratchiness is largely gone. The keycaps are still an adjustment, but it is a good one—my fingers feel like they "land" sooner than they used to, especially on vertical reaches.
 
-![AltText](/blog/2026-keyboard-upgrade/image3.jpeg)
+![AltText](image3.jpeg)
 
 ---

@@ -1,6 +1,7 @@
 ---
 title: Testing Kimi K2.5 for Real-World Coding Work
 date: 2026-01-29
+summary: Evaluation of Moonshot AI's Kimi K2.5 with Factory Droid on real coding tasks, with notes on strengths, limits, and comparison to GPT-5.2 Codex.
 description: Hands-on notes from evaluating Moonshot AI’s Kimi K2.5 with Factory Droid, and how it compares to GPT-5.2 Codex for everyday engineering tasks.
 tags:
   - ai
@@ -8,10 +9,9 @@ tags:
   - developer-tools
   - coding
   - agentic-workflow
-feature : /blog/kimi2.5-vs-5.2codex/kimi2.5-vs5.2codex.png
+feature : "kimi2.5-vs5.2codex.png"
 featureAlt: "Engineer comparing Kimi K2.5 and GPT-5.2 Codex side by side" 
 ---
-![AltText](/blog/kimi2.5-vs-5.2codex/kimi2.5-vs5.2codex.png)
 Yesterday, I spent some focused time testing **Moonshot AI’s Kimi K2.5** with **Factory Droid** on real coding and reasoning tasks.
 
 The short version:  
@@ -69,4 +69,3 @@ I’m also a big supporter of **open-source and open-weight models**, and Kimi i
 ---
 
 **Next up:** trying Kimi with OpenCode.
-

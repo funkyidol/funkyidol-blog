@@ -14,7 +14,10 @@
 
 ## Content conventions
 - Homepage: `content/_index.md` uses `profile` and `button` shortcodes.
-- Blog posts: place Markdown in `content/blog/`; use frontmatter `title`, `date`, `summary`, `tags`.
+- Blog posts: use page bundles at `content/blog/<slug>/index.md`; keep attached images in the same folder.
+- Blog post frontmatter baseline: `title`, `date`, `summary`, `description`, `tags`, `feature`, `featureAlt`.
+- For attached images, use local filenames in frontmatter and body image links.
+- New blog posts: run `hugo new content/blog/<slug>/index.md` to use `archetypes/blog.md`.
 - Projects entries: place Markdown in `content/projects/`; include `summary`, `role`, `tags`, `impact`, and `weight` (plus optional links).
 - Avoid `content/posts/` unless you switch `mainSections`.
 - Disable page TOC with `showTableOfContents: false` in frontmatter (defaults to true via params).

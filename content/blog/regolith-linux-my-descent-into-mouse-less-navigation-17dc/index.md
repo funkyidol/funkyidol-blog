@@ -60,7 +60,7 @@ On the bottom left is our workspace indicators. The workspaces are how we spread
 
 Regolith bundles the 'Rofi Application Launcher' which is a type-to-search type of a launcher. Just start typing what you are looking for and it will immediately filter results based on the text. And as you use this launcher more and more it starts remembering your choices and starts showing them on first like in the image below 
 
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/xsrktufqm5w32ms7ppt2.png)
+![Alt Text](xsrktufqm5w32ms7ppt2.png)
 
 > One thing to remember here is that 'restart' is actually 'reboot' here so it might be something to look for when starting out.
 
@@ -71,7 +71,7 @@ Notifications is probably the most not-so-obvious feature in Regolith. Regolith 
 Now the other big thing with these notifications is that they are non-actionable. You cannot click or select this notification to open the respective app which furnished the notification. For me, this needed getting used to as with the traditional notifications system we are in the habit of taking actions directly on the notification to open the respective application. But on a personal level, I am fine with it since most of the notification I receive are from Slack or Android Studio. 
 To delete these notifications simply press `Delete` to remove individual notifications or `Shift + Delete` to delete all notifications from a particular app.
 
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/0bur9hlikf0h0d9hd2b8.png)
+![Alt Text](0bur9hlikf0h0d9hd2b8.png)
 
 ### Traditional Gnome Settings
 
@@ -81,9 +81,9 @@ One good thing about Regolith, which is not available in the standard i3wm setup
 
 * **Working with non-tillable windows**
     There are a few applications which work well in the tiling paradigm and can lead to some weird window placements and artifacts. This happens for me notably with the Android Emulator.
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/a874rgeq91btz0mhoymy.png)
+![Alt Text](a874rgeq91btz0mhoymy.png)
     Luckily we do have an option to make any window a floating window. Pressing `Super + Shift + F` on the currently selected window makes if a floating one which then overlaps the rest of the environment.
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/2qcx29ltnw3dc7d6l0k2.png)
+![Alt Text](2qcx29ltnw3dc7d6l0k2.png)
     But we can't simply move this window around with the mouse. Here once again we have to take help from our friend the `Super` key and keep it pressed to enable window dragging behavior while you move the window around using the mouse.
 
 * **Setting up a workflow**
@@ -93,13 +93,13 @@ One good thing about Regolith, which is not available in the standard i3wm setup
 * **Working parallelly in multiple apps**
 
     As I mentioned earlier, in this tiling desktop environment, apps open along with each other. 
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/7mixho0vpbia8jpu93sw.png)
+![Alt Text](7mixho0vpbia8jpu93sw.png)
 When more than one app are open, they always show up dividing the currently available space in half either vertically or horizontally. By default, the apps always open split vertically side-by-side. 
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/gi2r9clrctfkfb0pz9g4.png)
+![Alt Text](gi2r9clrctfkfb0pz9g4.png)
 So the first window shows of full screen, second split it in half, the third app will split the screen in one-thirds and so on. 
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/qfxg6emoan9mw23af9bw.png)
+![Alt Text](qfxg6emoan9mw23af9bw.png)
     But instead, if I wish to open the third app split in the lower half of the right side split horizontally, I will just press the orientation modifier i.e. `Super + Backspace` before opening the third app. And not when I open the third app its shown like in the image below.
-![Alt Text](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/7s8evy2in8a8qyu1q69g.png)
+![Alt Text](7s8evy2in8a8qyu1q69g.png)
     The power of Regolith shines especially when you have multiple apps open in the same workspace aligned in the grid pattern of your choice. To move focus between the various windows, instead of moving the mouse, you can very quickly press `Super + <arrow keys>` to focus on the app depending on the window layout. 
 
 * **Moving windows between workspaces**
@@ -155,7 +155,7 @@ But before starting any customization we first have to setup the i3 config file 
 ## Not everything is perfect
 
 Frankly, I don't have much to write in this section apart from the fact that using Regolith definitely had its own learning curve but not as much as a vanilla i3wm setup would be. It's obviously about what clicks for whom and putting in just the little bit of effort to becoming more productive and feel like a "Hacker Man". 
-![](/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/giphy.gif)
+![](giphy.gif)
 Though I'm still learning the ropes of using more keyboard shortcuts to get a better window layout, but all that I feel will come with time as its need would move up from good-to-have to must-have
 
 ## Future
