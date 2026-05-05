@@ -11,4 +11,4 @@ feature: "feature-image.png"
 featureAlt: "Short accessible description of the feature image"
 ---
 
-Start with a short context paragraph
+Start with a short context paragraph.

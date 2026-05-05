@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+usage() {
+  printf 'Usage: %s <post-slug>\n' "$(basename "$0")" >&2
+  printf 'Example: %s my-post-slug\n' "$(basename "$0")" >&2
+}
+
+main() {
+  if [ "$#" -ne 1 ]; then
+    usage
+    exit 1
+  fi
+
+  local slug="$1"
+
+  if [[ "$slug" == */* || "$slug" == .* || "$slug" == *" "* ]]; then
+    printf 'Error: use a simple slug without slashes, leading dots, or spaces.\n' >&2
+    exit 1
+  fi
+
+  local post_dir="content/blog/${slug}"
+  local post_file="${post_dir}/index.md"
+
+  if [ -e "$post_dir" ]; then
+    printf 'Error: %s already exists.\n' "$post_dir" >&2
+    exit 1
+  fi
+
+  hugo new content "blog/${slug}"
+
+  printf 'Created %s\n' "$post_file"
+  printf 'If this post uses a feature image, place it beside index.md and set feature to the local filename.\n'
+}
+
+main "$@"
