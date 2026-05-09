@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "content/blog/new-kmp-project-flow/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "index"
             }
           },
           {
@@ -52,7 +52,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "content/blog/new-kmp-project-flow/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of index"
             }
           }
         ],
@@ -181,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,30 +200,32 @@
   },
   "active": "3ae96bcfd24b329e",
   "lastOpenFiles": [
+    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_596e0fdbe999236e.jpeg",
+    "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_596e0fdbe999236e.jpeg",
+    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_2caad5bc920a6a2c.jpeg",
+    "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_2caad5bc920a6a2c.jpeg",
+    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_8fb3fd13e385b99a.jpeg",
+    "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_8fb3fd13e385b99a.jpeg",
+    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_7dfe02616b4b44c5.jpeg",
+    "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_7dfe02616b4b44c5.jpeg",
+    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_17807c7989b9b3a0.webp",
+    "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_17807c7989b9b3a0.webp",
+    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_316ae0cb79fb5496.webp",
+    "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow",
     "content/blog/ai-proof-career/index.md",
+    "content/blog/new-kmp-project-flow/index.md",
+    "public/tags/spec-driven-development/page/1/index.html",
+    "public/tags/spec-driven-development/page/1",
+    "public/tags/spec-driven-development/page",
+    "public/tags/spec-driven-development/index.xml",
+    "public/tags/spec-driven-development/index.html",
+    "public/tags/spec-driven-development",
+    "public/tags/software-architecture/page/1/index.html",
+    "public/tags/software-architecture/page/1",
+    "public/tags/software-architecture/page",
+    "archetypes/blog/index.md",
     "README.md",
     "content/blog/opencode-archetype-smoke-test/index.md",
-    "content/blog/opencode-archetype-smoke-test",
-    "public/contact/contact/index.html",
-    "public/contact/contact",
-    "scripts/new-post",
-    "archetypes/blog/index.md",
-    "scripts",
-    "archetypes/blog",
-    "content/blog/ai-proof-career/ai_proof_career.png",
-    "public/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_94466d12a647aa0e.png",
-    "resources/_gen/images/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_94466d12a647aa0e.png",
-    "public/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_7869677890247705.png",
-    "resources/_gen/images/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_7869677890247705.png",
-    "public/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_3a1aa4ac3f077fcb.png",
-    "resources/_gen/images/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_3a1aa4ac3f077fcb.png",
-    "public/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_3fdec9bdfafa448.png",
-    "resources/_gen/images/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_3fdec9bdfafa448.png",
-    "public/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_2745e399128f74fa.webp",
-    "resources/_gen/images/blog/advice-for-new-developers-in-the-age-of-ai",
-    "public/tags/software-engineering/page/1/index.html",
-    "public/tags/software-engineering/page/1",
-    "public/tags/software-engineering/page",
     "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md",
     "Untitled.md",
     "Templates/blog-post-template.md",
@@ -242,8 +245,6 @@
     "content/blog/Kimi 2.5 vs 5.2 Codex.md",
     "content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md",
     "content/blog/effective-logging-in-production-with-firebase-crashlytics-m27/index.md",
-    "content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55/index.md",
-    "content/blog/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2/index.md",
-    "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker.md"
+    "content/blog/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55/index.md"
   ]
 }
