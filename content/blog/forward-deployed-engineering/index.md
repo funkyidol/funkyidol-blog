@@ -1,5 +1,5 @@
 ---
-title: Forward Deployed Engineering
+title: "The Future of Engineering: Forward Deployed Engineers"
 date: 2026-05-18T12:41:02+05:30
 draft: false
 summary: How AI is changing the future of Engineers into Forward Deployed Engineers
@@ -11,8 +11,6 @@ tags:
   - software-engineering
   - ai
 ---
-# The Future of Engineering: Forward Deployed Engineers
-
 OpenAI recently published a piece on Forward Deployed Engineering, describing how their teams work directly inside real enterprise environments to bring AI systems into production. The interesting part is not only the AI angle. It is the engineering model itself.
 
 The role sits close to the customer, close to the business problem and close to the actual implementation.
