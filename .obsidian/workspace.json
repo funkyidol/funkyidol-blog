@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/new-kmp-project-flow/index.md",
+                "file": "content/blog/forward-deployed-engineering/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -52,7 +52,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -200,6 +200,9 @@
   },
   "active": "3ae96bcfd24b329e",
   "lastOpenFiles": [
+    "content/blog/new-kmp-project-flow/index.md",
+    "content/blog/forward-deployed-engineering/index.md",
+    "content/blog/forward-deployed-engineering",
     "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_596e0fdbe999236e.jpeg",
     "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_596e0fdbe999236e.jpeg",
     "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_2caad5bc920a6a2c.jpeg",
@@ -210,10 +213,8 @@
     "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_7dfe02616b4b44c5.jpeg",
     "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_17807c7989b9b3a0.webp",
     "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_17807c7989b9b3a0.webp",
-    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_316ae0cb79fb5496.webp",
     "resources/_gen/images/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow",
     "content/blog/ai-proof-career/index.md",
-    "content/blog/new-kmp-project-flow/index.md",
     "public/tags/spec-driven-development/page/1/index.html",
     "public/tags/spec-driven-development/page/1",
     "public/tags/spec-driven-development/page",
@@ -222,7 +223,6 @@
     "public/tags/spec-driven-development",
     "public/tags/software-architecture/page/1/index.html",
     "public/tags/software-architecture/page/1",
-    "public/tags/software-architecture/page",
     "archetypes/blog/index.md",
     "README.md",
     "content/blog/opencode-archetype-smoke-test/index.md",
