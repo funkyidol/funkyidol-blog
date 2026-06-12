@@ -4,37 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "893c76e2da02f9ed",
+        "id": "30a20734c9bdc44b",
         "type": "tabs",
         "children": [
           {
-            "id": "3ae96bcfd24b329e",
+            "id": "3dc207d4d1c84ad2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog/googleio26/index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "b169af8c5a7159b7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/blog/googleio26/IMG20260604172500~4.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "IMG20260604172500~4"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,6 +184,7 @@
   },
   "active": "d58b10261d6ab875",
   "lastOpenFiles": [
+    "docs/BLOG_WRITING_GUIDE_FOR_CODEX.md",
     "content/blog/googleio26/IMG20260604172500~4.jpg",
     "content/blog/googleio26/IMG20260604172500~3.jpg",
     "content/blog/googleio26/IMG20260604172500~2.jpg",
@@ -212,7 +196,6 @@
     "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_11a4b305d37a6271.jpg",
     "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_4b1468bef5037393.jpg",
     "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_4b1468bef5037393.jpg",
-    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_53a2076093bece98.jpg",
     "content/blog/2026-new-year-keyboard-upgrade/index.md",
     "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations",
     "resources/_gen/images/blog/google-i",
