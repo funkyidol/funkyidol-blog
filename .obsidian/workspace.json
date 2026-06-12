@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/forward-deployed-engineering/index.md",
+                "file": "content/blog/googleio26/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,18 +22,19 @@
             }
           },
           {
-            "id": "e93ec56f57c32fb2",
+            "id": "b169af8c5a7159b7",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "content/blog/ai-proof-career/ai_proof_career.png"
+                "file": "content/blog/googleio26/IMG20260604172500~4.jpg"
               },
               "icon": "lucide-image",
-              "title": "ai_proof_career"
+              "title": "IMG20260604172500~4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 313
   },
   "right": {
     "id": "d03d1fcdce5157a9",
@@ -198,31 +199,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3ae96bcfd24b329e",
+  "active": "d58b10261d6ab875",
   "lastOpenFiles": [
-    "public/tags/product-engineering/index.xml",
-    "public/tags/engineering-leadership/index.xml",
-    "public/page/5/index.html",
-    "public/page/5",
-    "public/blog/2026-new-year-keyboard-upgrade/image3_hu_ff99c4c3418bab52.jpeg",
-    "resources/_gen/images/blog/2026-new-year-keyboard-upgrade/image3_hu_ff99c4c3418bab52.jpeg",
-    "public/blog/2026-new-year-keyboard-upgrade/image3_hu_88ccc27e61381fb9.jpeg",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_1ff60a7ad60922d0.jpg",
-    "public/tags/product-engineering/page/1/index.html",
-    "public/tags/product-engineering/page/1",
-    "public/tags/product-engineering/page",
-    "public/tags/product-engineering/index.html",
-    "public/tags/product-engineering",
-    "public/blog/testing-kimi-k2.5-for-real-world-coding-work/kimi2.5-vs5.2codex_hu_ebd535fca7a0d7b6.png",
-    "public/blog/starting-a-production-kotlin-multiplatform-project-with-a-spec-driven-agentic-workflow/kmp_project_flow_hu_37fe94cdeaec959f.jpeg",
-    "resources/_gen/images/blog/2026-new-year-keyboard-upgrade/image3_hu_88ccc27e61381fb9.jpeg",
-    "public/tags/engineering-leadership/page/1/index.html",
-    "public/tags/engineering-leadership/page/1",
-    "public/blog/advice-for-new-developers-in-the-age-of-ai/ai_proof_career_hu_5825b2d92a8ff62f.png",
-    "resources/_gen/images/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_1ff60a7ad60922d0.jpg",
-    "public/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/monika-borys-DStJr8oJurw-unsplash_hu_9974af03b9805aaf.jpg",
-    "content/blog/new-kmp-project-flow/index.md",
+    "content/blog/googleio26/IMG20260604172500~4.jpg",
+    "content/blog/googleio26/IMG20260604172500~3.jpg",
+    "content/blog/googleio26/IMG20260604172500~2.jpg",
+    "content/blog/googleio26/feature-image.jpg",
+    "content/blog/googleio26/index.md",
+    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_a57b43b316862326.jpg",
+    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_a57b43b316862326.jpg",
+    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_11a4b305d37a6271.jpg",
+    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_11a4b305d37a6271.jpg",
+    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_4b1468bef5037393.jpg",
+    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_4b1468bef5037393.jpg",
+    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_53a2076093bece98.jpg",
+    "content/blog/2026-new-year-keyboard-upgrade/index.md",
+    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations",
+    "resources/_gen/images/blog/google-i",
+    "public/tags/google-io/index.xml",
+    "public/tags/mobile-development/page/1/index.html",
+    "public/tags/mobile-development/page/1",
+    "public/tags/mobile-development/index.xml",
+    "public/tags/mobile-development/page",
+    "public/tags/mobile-development/index.html",
+    "public/tags/mobile-development",
+    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/index.html",
     "content/blog/forward-deployed-engineering/index.md",
+    "content/blog/new-kmp-project-flow/index.md",
     "content/blog/ai-proof-career/index.md",
     "archetypes/blog/index.md",
     "README.md",
@@ -233,7 +236,6 @@
     "AGENTS.md",
     "Untitled 1.md",
     "docs/blog_bundle_migration_plan.md",
-    "content/blog/2026-new-year-keyboard-upgrade/index.md",
     "archetypes/blog.md",
     "content/blog/Kimi 2.5 vs 5.2 Codex/index.md",
     "content/blog/timber-logging-performance-improvements-in-production-56k7/index.md",
@@ -244,7 +246,6 @@
     "content/blog/moving-away-from-gitflow-and-feature-branches-3cg0/index.md",
     "content/blog/exploring-camerax-beta-release-part-1-19hh/index.md",
     "content/blog/Kimi 2.5 vs 5.2 Codex.md",
-    "content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md",
-    "content/blog/effective-logging-in-production-with-firebase-crashlytics-m27/index.md"
+    "content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md"
   ]
 }
