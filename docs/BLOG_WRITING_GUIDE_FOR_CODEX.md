@@ -8,13 +8,58 @@ This guide is intentionally focused only on the blog. Ignore social media distri
 
 ---
 
-## Required prose mechanics
+## Critical writing gates
+
+These two rule sets are the most critical part of the blog writing process. Do not treat them as cleanup. Apply them before drafting, during revision and again before final output.
+
+A blog task is not complete until both gates have been checked against the actual draft. Never skip them because the task is small, the prose is already readable or the user asked for a narrow edit.
+
+### Gate 1: Required prose mechanics
 
 - Avoid contractions and other short forms. Use full forms instead. Examples: `I am`, `I have`, `you are`, `cannot`, `will not`.
 - Use only straight quotes: `'` and `"`. Do not use curly quotes.
-- Do not use `-` for sentence structure. Avoid space, hyphen, space as a dash. Rewrite the sentence or use punctuation such as `:`, `;` or parentheses.
+- Do not use `-` (em-dash) for sentence structure. Avoid space, hyphen, space as a dash. Rewrite the sentence or use punctuation such as `:`, `;` or parentheses.
 - Minimize hyphens in prose. Hyphenate only when required by Markdown or frontmatter structure, URLs, file paths, code identifiers, tags, proper names or established technical terms.
 - Do not use a comma before `and` or `or`. Write `and` and `or` without the preceding comma.
+
+### Gate 2: Sentence and flow preferences
+
+Kshitij prefers writing that has flow. Avoid overly short, disconnected sentences.
+
+Do not make the post read like a list of isolated facts.
+
+Weak pattern:
+
+> Google announced X.
+> This matters for mobile.
+> That changes the developer workflow.
+
+Better pattern:
+
+> Google announced X and the part I found interesting was not the announcement itself but the workflow it implies. For mobile teams, the question is less "can this generate code?" and more "how much context can we safely hand over before review becomes harder than implementation?"
+
+Use sentence length variation. Some sentences can be short, but the post should not be built entirely from short declarative statements.
+
+Avoid excessive sentence starts with:
+
+- "This..."
+- "That..."
+- "It..."
+
+These words are fine occasionally, but repeated use makes the writing feel mechanical.
+
+Before finalizing a blog post, scan for repeated sentence starts with `This`, `That` and `It`. Use a command such as `rg -n "^(This|That|It)\b|[.!?] (This|That|It)\b" content/blog/<slug>/index.md` and rewrite repeated hits until the pattern no longer dominates the flow.
+
+Avoid filler transition sentences such as:
+
+- "That matters for mobile."
+- "This matters."
+- "That distinction matters."
+- "This is not paperwork."
+
+Only keep a sentence if it adds a real idea, example, tension or transition.
+
+Not every sentence has to sound like a fact. Mix observation, interpretation, uncertainty and experience.
 
 ---
 
@@ -134,6 +179,8 @@ The final result should feel like a cleaner version of Kshitij's own writing, no
 
 When creating a new blog post, start by identifying the real center of the idea.
 
+Before drafting, review the critical writing gates. Before final output, check the draft against both gates again. Do not send or commit a blog draft that misses the prose mechanics or sentence and flow preferences.
+
 Useful questions to answer internally:
 
 - What is the post preserving?
@@ -233,46 +280,7 @@ For lecture notes and observations posts:
 
 ---
 
-## 8. Sentence and flow preferences
-
-Kshitij prefers writing that has flow. Avoid overly short, disconnected sentences.
-
-Do not make the post read like a list of isolated facts.
-
-Weak pattern:
-
-> Google announced X.  
-> This matters for mobile.  
-> That changes the developer workflow.
-
-Better pattern:
-
-> Google announced X and the part I found interesting was not the announcement itself but the workflow it implies. For mobile teams, the question is less "can this generate code?" and more "how much context can we safely hand over before review becomes harder than implementation?"
-
-Use sentence length variation. Some sentences can be short, but the post should not be built entirely from short declarative statements.
-
-Avoid excessive sentence starts with:
-
-- "This..."
-- "That..."
-- "It..."
-
-These words are fine occasionally, but repeated use makes the writing feel mechanical.
-
-Avoid filler transition sentences such as:
-
-- "That matters for mobile."
-- "This matters."
-- "That distinction matters."
-- "This is not paperwork."
-
-Only keep a sentence if it adds a real idea, example, tension or transition.
-
-Not every sentence has to sound like a fact. Mix observation, interpretation, uncertainty and experience.
-
----
-
-## 9. Bullet points
+## 8. Bullet points
 
 Bullet points are encouraged when they make the post easier to scan or help emphasize a set of concrete points.
 
@@ -298,20 +306,21 @@ Avoid using bullets as a shortcut for structure. A post should not become a coll
 
 ---
 
-## 10. Editing rules
+## 9. Editing rules
 
 When editing a draft:
 
-1. Preserve the original structure unless the structure is clearly hurting readability.
-2. Preserve the author's examples and technical details.
-3. Fix grammar, clarity, flow and repetition.
-4. Remove filler.
-5. Keep strong opinionated lines when they are grounded.
-6. Do not over smooth the draft.
-7. Do not replace specific details with generic abstractions.
-8. Do not inflate the claim beyond the evidence.
-9. Do not add fake metrics, fake outcomes, fake dates or unsupported confidence.
-10. Make the writing clearer while keeping it recognizably Kshitij's.
+1. Apply both critical writing gates before making broader style changes.
+2. Preserve the original structure unless the structure is clearly hurting readability.
+3. Preserve the author's examples and technical details.
+4. Fix grammar, clarity, flow and repetition.
+5. Remove filler.
+6. Keep strong opinionated lines when they are grounded.
+7. Do not over smooth the draft.
+8. Do not replace specific details with generic abstractions.
+9. Do not inflate the claim beyond the evidence.
+10. Do not add fake metrics, fake outcomes, fake dates or unsupported confidence.
+11. Make the writing clearer while keeping it recognizably Kshitij's.
 
 When rewriting, prefer "refine and restructure" over "start from scratch," unless explicitly asked.
 
@@ -319,7 +328,7 @@ Editing should improve the post without erasing the lived experience behind it.
 
 ---
 
-## 11. Updating existing blog posts
+## 10. Updating existing blog posts
 
 When updating an existing blog post, treat the original post as an artifact worth preserving.
 
@@ -360,7 +369,7 @@ The goal of an update is not to make the post look timeless. The goal is to keep
 
 ---
 
-## 12. Technical detail preservation
+## 11. Technical detail preservation
 
 Preserve concrete technical artifacts and implementation details when they appear in drafts.
 
@@ -402,7 +411,7 @@ Do not fabricate implementation details to make the story sound more complete.
 
 ---
 
-## 13. Technical writing defaults
+## 12. Technical writing defaults
 
 When code or implementation is relevant:
 
@@ -426,7 +435,7 @@ For testing related topics, include the testing angle whenever applicable:
 
 ---
 
-## 14. AI and agent writing stance
+## 13. AI and agent writing stance
 
 When writing about AI, Codex, agents or AI assisted product development, stay grounded and cautious.
 
@@ -458,7 +467,7 @@ AI posts should read like field notes from actual usage, not thought leader hype
 
 ---
 
-## 15. Accuracy and evidence guardrails
+## 14. Accuracy and evidence guardrails
 
 Do not fabricate:
 
@@ -492,7 +501,7 @@ Avoid exaggerated certainty.
 
 ---
 
-## 16. Blog maintenance and compounding
+## 15. Blog maintenance and compounding
 
 When maintaining blog content, look for ways to make posts easier to revisit and build on.
 
@@ -518,7 +527,7 @@ Blog maintenance should make the archive more useful without turning every post 
 
 ---
 
-## 17. Anti patterns to avoid
+## 16. Anti patterns to avoid
 
 Avoid:
 
@@ -547,7 +556,7 @@ Quality bar:
 
 ---
 
-## 18. Preferred blog feel
+## 17. Preferred blog feel
 
 A good Kshitij blog post should feel like:
 
@@ -567,7 +576,7 @@ It should not feel like:
 
 ---
 
-## 19. Clarifying question policy
+## 18. Clarifying question policy
 
 Ask at most one or two clarifying questions only when the answer materially improves the output.
 
@@ -582,10 +591,13 @@ If the missing information is not critical, proceed with a best effort draft and
 
 ---
 
-## 20. Blog editing checklist
+## 19. Blog editing checklist
 
 Before finalizing a blog post, check:
 
+- Have both critical writing gates been checked against the actual draft?
+- Are the required prose mechanics followed?
+- Does the sentence and flow pass avoid choppy fact listing, filler transitions and repeated mechanical sentence starts?
 - Does the post preserve one clear idea?
 - Does it sound like Kshitij, not a generic tech writer?
 - Are the technical details preserved?
@@ -602,7 +614,7 @@ Before finalizing a blog post, check:
 
 ---
 
-## 21. Operating principle for Codex
+## 20. Operating principle for Codex
 
 When Codex works on blog content, its job is not to make the writing sound more impressive.
 

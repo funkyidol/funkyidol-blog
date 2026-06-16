@@ -11,10 +11,32 @@
             "id": "3dc207d4d1c84ad2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "image",
+              "state": {
+                "file": "content/blog/how-to-read-a-book/IMG20260612203803~2.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "IMG20260612203803~2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7525eddc5bfd7b05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0658e129ed1d6f10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blog/how-to-read-a-book/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -151,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/new-kmp-project-flow/index.md",
+                "file": "content/blog/how-to-read-a-book/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -165,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,31 +203,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d58b10261d6ab875",
+  "active": "0658e129ed1d6f10",
   "lastOpenFiles": [
-    "docs/BLOG_WRITING_GUIDE_FOR_CODEX.md",
-    "content/blog/googleio26/IMG20260604172500~4.jpg",
-    "content/blog/googleio26/IMG20260604172500~3.jpg",
-    "content/blog/googleio26/IMG20260604172500~2.jpg",
-    "content/blog/googleio26/feature-image.jpg",
+    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_a5e116d963bbf492.jpg",
+    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_a5e116d963bbf492.jpg",
+    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ed479ca484ab58c3.jpg",
+    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ed479ca484ab58c3.jpg",
+    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ef02bca03515d685.jpg",
+    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ef02bca03515d685.jpg",
+    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_1034b0ff512cad82.jpg",
+    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_1034b0ff512cad82.jpg",
+    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_4668ed9932af1602.webp",
+    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_4668ed9932af1602.webp",
+    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_1ca5d14cb75a4e13.webp",
+    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book",
+    "content/blog/how-to-read-a-book/index.md",
     "content/blog/googleio26/index.md",
-    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_a57b43b316862326.jpg",
-    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_a57b43b316862326.jpg",
-    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_11a4b305d37a6271.jpg",
-    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_11a4b305d37a6271.jpg",
-    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_4b1468bef5037393.jpg",
-    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations/IMG20260604172500~4_hu_4b1468bef5037393.jpg",
+    "docs/BLOG_WRITING_GUIDE_FOR_CODEX.md",
+    "public/blog/a-personal-note-on-how-to-read-a-book/index.html",
+    "public/blog/a-personal-note-on-how-to-read-a-book",
+    "public/tags/thinking/index.xml",
+    "public/tags/books/index.xml",
+    "public/tags/reading/index.xml",
+    "public/tags/personal-growth/index.xml",
+    "public/tags/thinking/page/1/index.html",
+    "public/tags/thinking/page/1",
+    "public/tags/thinking/page",
     "content/blog/2026-new-year-keyboard-upgrade/index.md",
-    "resources/_gen/images/blog/google-i/o-26-notes-learnings-and-significant-observations",
-    "resources/_gen/images/blog/google-i",
-    "public/tags/google-io/index.xml",
-    "public/tags/mobile-development/page/1/index.html",
-    "public/tags/mobile-development/page/1",
-    "public/tags/mobile-development/index.xml",
-    "public/tags/mobile-development/page",
-    "public/tags/mobile-development/index.html",
-    "public/tags/mobile-development",
-    "public/blog/google-i/o-26-notes-learnings-and-significant-observations/index.html",
     "content/blog/forward-deployed-engineering/index.md",
     "content/blog/new-kmp-project-flow/index.md",
     "content/blog/ai-proof-career/index.md",
@@ -227,8 +250,6 @@
     "content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop/index.md",
     "content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5/index.md",
     "content/blog/moving-away-from-gitflow-and-feature-branches-3cg0/index.md",
-    "content/blog/exploring-camerax-beta-release-part-1-19hh/index.md",
-    "content/blog/Kimi 2.5 vs 5.2 Codex.md",
-    "content/blog/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md"
+    "content/blog/exploring-camerax-beta-release-part-1-19hh/index.md"
   ]
 }
