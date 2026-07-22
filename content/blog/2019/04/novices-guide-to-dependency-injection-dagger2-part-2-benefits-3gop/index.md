@@ -11,7 +11,7 @@ canonicalURL: "https://dev.to/funkyidol/novices-guide-to-dependency-injection-da
 In the second article of the 'Novices guide to DI', before we go into further details, lets talk about the benefits. 
 
 Why would we event want to get into the complexity of understanding DI?
-What advantages do we have by changing the way we code as discussed in the previous post: [Part 1](/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5/)
+What advantages do we have by changing the way we code as discussed in the previous post: [Part 1](/blog/novices-guide-to-dependency-injection-dagger2-part-1-introduction/)
 
 I believe that knowing the advantages of learning a concept gives an extra dose of motivation to break past the mental block and step outside the comfort zone and to reach a place where the complexity fades away and things become more clear.
 
