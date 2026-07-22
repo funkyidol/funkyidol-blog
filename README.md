@@ -30,7 +30,13 @@ Example:
 scripts/new-post learning-hugo-content-structure
 ```
 
-This creates a leaf bundle at `content/blog/<slug>/index.md` using the `archetypes/blog/index.md` template. The generated frontmatter includes a `feature` field. If the post does not use a feature image, remove that field from the frontmatter.
+This creates a leaf bundle at `content/blog/YYYY/MM/<slug>/index.md` using today's date and the `archetypes/blog/index.md` template. To backfill an older post, pass the date explicitly:
+
+```sh
+scripts/new-post learning-hugo-content-structure 2026-06-30
+```
+
+The generated frontmatter includes a `feature` field. If the post does not use a feature image, remove that field from the frontmatter.
 
 ### Feature images
 
@@ -43,12 +49,14 @@ featureAlt: "Descriptive alt text"
 
 ## Content structure
 
-- `content/blog/<slug>/index.md` — blog posts as leaf bundles
+- `content/blog/YYYY/MM/<slug>/index.md` — blog posts as dated leaf bundles
 - `content/projects/` — project pages
 - `content/about.md` — about page
 - `content/contact.md` — contact page
 - `content/speaking.md` — speaking page
 - `content/tools.md` — tools page
+
+Blog public URLs are controlled by the Hugo permalink rule `/blog/:slug/`, so the dated folder structure is for repository organization and should not be used to build public links.
 
 ## Deployment
 

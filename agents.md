@@ -5,7 +5,7 @@
 - Hugo site using the **Congo** theme.
 - Primary sections: `content/blog` (posts) and `content/projects` (selected work); `mainSections` set to `blog`.
 - Key pages: `content/_index.md` (home), `content/projects/_index.md` (projects list), `content/about.md` (about), `content/contact.md` (contact) and `content/speaking.md` (speaking).
-- Custom permalinks: `/blog/:slug/`, `/projects/:slug/`, `/contact/:slug/`.
+- Custom permalinks: `/blog/:slug/`, `/projects/:slug/`, `/contact/:slug/`; blog folder dates must not change public URLs.
 - Legacy path: `/portfolio/` is supported via an alias on the projects section.
 
 ## Common commands
@@ -14,10 +14,13 @@
 
 ## Content conventions
 - Homepage: `content/_index.md` uses `profile` and `button` shortcodes.
-- Blog posts: use page bundles at `content/blog/<slug>/index.md`; keep attached images in the same folder.
+- Blog posts: use dated page bundles at `content/blog/YYYY/MM/<slug>/index.md`; keep attached images in the same folder.
 - Blog post frontmatter baseline: `title`, `date`, `summary`, `description`, `tags`, `feature`, `featureAlt`.
 - For attached images, use local filenames in frontmatter and body image links.
-- New blog posts: run `hugo new content/blog/<slug>/index.md` to use `archetypes/blog.md`.
+- For blog feature images and accompanying creative, use raster images, preferably JPEG/JPG. Do not create SVG creatives unless the user explicitly asks for SVG/vector output.
+- Generated blog images should be eye catching but contextually tied to the post's argument, not generic decoration.
+- If generated blog images include text, keep the text sparse, large, bold and easy to read at a glance. Avoid tiny handwriting, dense notes or small labels.
+- New blog posts: run `scripts/new-post <slug>` for today's date or `scripts/new-post <slug> YYYY-MM-DD` for a backfilled date.
 - Projects entries: place Markdown in `content/projects/`; include `summary`, `role`, `tags`, `impact` and `weight` (plus optional links).
 - Avoid `content/posts/` unless you switch `mainSections`.
 - Disable page TOC with `showTableOfContents: false` in frontmatter (defaults to true via params).

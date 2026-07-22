@@ -48,7 +48,7 @@ Avoid excessive sentence starts with:
 
 These words are fine occasionally, but repeated use makes the writing feel mechanical.
 
-Before finalizing a blog post, scan for repeated sentence starts with `This`, `That` and `It`. Use a command such as `rg -n "^(This|That|It)\b|[.!?] (This|That|It)\b" content/blog/<slug>/index.md` and rewrite repeated hits until the pattern no longer dominates the flow.
+Before finalizing a blog post, scan for repeated sentence starts with `This`, `That` and `It`. Use a command such as `rg -n "^(This|That|It)\b|[.!?] (This|That|It)\b" content/blog/YYYY/MM/<slug>/index.md` and rewrite repeated hits until the pattern no longer dominates the flow.
 
 Avoid filler transition sentences such as:
 

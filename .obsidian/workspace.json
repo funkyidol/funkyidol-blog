@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "30a20734c9bdc44b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3dc207d4d1c84ad2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/blog/how-to-read-a-book/IMG20260612203803~2.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "IMG20260612203803~2"
-            }
-          }
-        ]
-      },
-      {
         "id": "7525eddc5bfd7b05",
         "type": "tabs",
         "children": [
@@ -31,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/how-to-read-a-book/index.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -173,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/blog/how-to-read-a-book/index.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of README"
             }
           }
         ],
@@ -205,51 +187,51 @@
   },
   "active": "0658e129ed1d6f10",
   "lastOpenFiles": [
-    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_a5e116d963bbf492.jpg",
-    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_a5e116d963bbf492.jpg",
-    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ed479ca484ab58c3.jpg",
-    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ed479ca484ab58c3.jpg",
-    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ef02bca03515d685.jpg",
-    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_ef02bca03515d685.jpg",
-    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_1034b0ff512cad82.jpg",
-    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_1034b0ff512cad82.jpg",
-    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_4668ed9932af1602.webp",
-    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_4668ed9932af1602.webp",
-    "public/blog/a-personal-note-on-how-to-read-a-book/feature-image_hu_1ca5d14cb75a4e13.webp",
-    "resources/_gen/images/blog/a-personal-note-on-how-to-read-a-book",
+    "public/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_2fc35cee0b8ba261.png",
+    "resources/_gen/images/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_2fc35cee0b8ba261.png",
+    "public/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_a9f8e38a3007c05f.png",
+    "resources/_gen/images/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_a9f8e38a3007c05f.png",
+    "public/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_a3a9dedadd860240.png",
+    "resources/_gen/images/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_a3a9dedadd860240.png",
+    "public/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_e518f2e6a2ec45bb.webp",
+    "resources/_gen/images/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_e518f2e6a2ec45bb.webp",
+    "public/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_cacd5b036ac5e160.webp",
+    "public/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_b21c2ed6e1da2552.png",
+    "resources/_gen/images/blog/what-shipping-a-product-is-teaching-me-about-codex-and-opencode/feature-image_hu_cacd5b036ac5e160.webp",
+    "content/blog/2026/07/codex-and-opencode-while-shipping/feature-image.png.sb-621c4c6e-Gr8IEH",
+    "content/blog/2026/07/codex-and-opencode-while-shipping/index.md",
+    "content/blog/2026/06/ai-moats-are-moving-beyond-model-access/index.md",
+    "content/blog/2026/06/ai-moats-are-moving-beyond-model-access/Draft.md",
+    "content/blog/ai-moats-are-moving-beyond-model-access/index.md",
+    "content/blog/2026/06/ai-moats-are-moving-beyond-model-access",
+    "content/blog/2019/06/why-becoming-staying-productive-in-india-is-difficult-3b27/index.md",
+    "content/blog/2019/06/why-becoming-staying-productive-in-india-is-difficult-3b27",
+    "content/blog/2024/06/timber-logging-performance-improvements-in-production-56k7/index.md",
+    "content/blog/2024/06/timber-logging-performance-improvements-in-production-56k7",
+    "content/blog/2020/04/regolith-linux-my-descent-into-mouse-less-navigation-17dc/index.md",
+    "content/blog/2020/04/regolith-linux-my-descent-into-mouse-less-navigation-17dc",
+    "content/blog/2019/04/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop/index.md",
+    "content/blog/2019/04/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop",
+    "content/blog/2019/02/novices-guide-to-dependency-injection--dagger2---part-1-ga5/index.md",
+    "content/blog/2019/02/novices-guide-to-dependency-injection--dagger2---part-1-ga5",
+    "content/blog/2026/05/new-kmp-project-flow/index.md",
+    "content/blog/2026/05/new-kmp-project-flow",
+    "content/blog/2025/07/moving-away-from-gitflow-and-feature-branches-3cg0/index.md",
+    "content/blog/2025/07/moving-away-from-gitflow-and-feature-branches-3cg0",
+    "content/blog/2026/06/how-to-read-a-book/index.md",
+    "content/blog/2026/06/how-to-read-a-book",
+    "content/blog/2026/06/googleio26/index.md",
+    "content/blog/2026/05/forward-deployed-engineering/index.md",
+    "content/blog/2020/05/exploring-camerax-beta-release-part-1-19hh/index.md",
+    "content/blog/2020/06/exploring-camerax-api-beta-part-2-image-analysis-1hha/index.md",
+    "content/blog/2019/07/effective-logging-in-production-with-firebase-crashlytics-m27/index.md",
+    "content/blog/2019/07/dual-boosting-ubuntu-budgie-on-windows-laptop-4a55/index.md",
+    "content/blog/2026/03/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md",
+    "content/blog/2025/12/beyond-the-visuals-why-audio-ux-is-critical-in-android-xr-2pj2/index.md",
+    "content/blog/2026/04/ai-proof-career/index.md",
+    "content/blog/2026/01/Kimi2.5-vs-5.2Codex/index.md",
+    "content/blog/2026/01/2026-new-year-keyboard-upgrade/index.md",
     "content/blog/how-to-read-a-book/index.md",
-    "content/blog/googleio26/index.md",
-    "docs/BLOG_WRITING_GUIDE_FOR_CODEX.md",
-    "public/blog/a-personal-note-on-how-to-read-a-book/index.html",
-    "public/blog/a-personal-note-on-how-to-read-a-book",
-    "public/tags/thinking/index.xml",
-    "public/tags/books/index.xml",
-    "public/tags/reading/index.xml",
-    "public/tags/personal-growth/index.xml",
-    "public/tags/thinking/page/1/index.html",
-    "public/tags/thinking/page/1",
-    "public/tags/thinking/page",
-    "content/blog/2026-new-year-keyboard-upgrade/index.md",
-    "content/blog/forward-deployed-engineering/index.md",
-    "content/blog/new-kmp-project-flow/index.md",
-    "content/blog/ai-proof-career/index.md",
-    "archetypes/blog/index.md",
-    "README.md",
-    "content/blog/opencode-archetype-smoke-test/index.md",
-    "content/blog/deploying-multiple-picoclaw-instances-on-a-single-machine-with-docker/index.md",
-    "Untitled.md",
-    "Templates/blog-post-template.md",
-    "AGENTS.md",
-    "Untitled 1.md",
-    "docs/blog_bundle_migration_plan.md",
-    "archetypes/blog.md",
-    "content/blog/Kimi 2.5 vs 5.2 Codex/index.md",
-    "content/blog/timber-logging-performance-improvements-in-production-56k7/index.md",
-    "content/blog/regolith-linux-my-descent-into-mouse-less-navigation-17dc/index.md",
-    "content/blog/why-becoming-staying-productive-in-india-is-difficult-3b27/index.md",
-    "content/blog/novices-guide-to-dependency-injection-dagger2-part-2-benefits-3gop/index.md",
-    "content/blog/novices-guide-to-dependency-injection--dagger2---part-1-ga5/index.md",
-    "content/blog/moving-away-from-gitflow-and-feature-branches-3cg0/index.md",
-    "content/blog/exploring-camerax-beta-release-part-1-19hh/index.md"
+    "content/blog/googleio26/index.md"
   ]
 }
