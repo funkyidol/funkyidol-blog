@@ -3,24 +3,40 @@
 set -euo pipefail
 
 usage() {
-  printf 'Usage: %s <post-slug>\n' "$(basename "$0")" >&2
+  printf 'Usage: %s <post-slug> [YYYY-MM-DD]\n' "$(basename "$0")" >&2
   printf 'Example: %s my-post-slug\n' "$(basename "$0")" >&2
+  printf 'Backfill example: %s my-post-slug 2026-06-30\n' "$(basename "$0")" >&2
 }
 
 main() {
-  if [ "$#" -ne 1 ]; then
+  if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
     usage
     exit 1
   fi
 
   local slug="$1"
+  local post_date="${2:-$(date +%Y-%m-%d)}"
 
   if [[ "$slug" == */* || "$slug" == .* || "$slug" == *" "* ]]; then
     printf 'Error: use a simple slug without slashes, leading dots, or spaces.\n' >&2
     exit 1
   fi
 
-  local post_dir="content/blog/${slug}"
+  if [[ ! "$post_date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+    printf 'Error: date must use YYYY-MM-DD.\n' >&2
+    exit 1
+  fi
+
+  local year="${post_date:0:4}"
+  local month="${post_date:5:2}"
+  local day="${post_date:8:2}"
+
+  if (( 10#$month < 1 || 10#$month > 12 || 10#$day < 1 || 10#$day > 31 )); then
+    printf 'Error: date must use a valid month and day.\n' >&2
+    exit 1
+  fi
+
+  local post_dir="content/blog/${year}/${month}/${slug}"
   local post_file="${post_dir}/index.md"
 
   if [ -e "$post_dir" ]; then
@@ -28,7 +44,11 @@ main() {
     exit 1
   fi
 
-  hugo new content "blog/${slug}"
+  hugo new content --kind blog "blog/${year}/${month}/${slug}"
+
+  if [ "$#" -eq 2 ]; then
+    perl -0pi -e "s/^date: .*\$/date: ${post_date}/m" "$post_file"
+  fi
 
   printf 'Created %s\n' "$post_file"
   printf 'If this post uses a feature image, place it beside index.md and set feature to the local filename.\n'
