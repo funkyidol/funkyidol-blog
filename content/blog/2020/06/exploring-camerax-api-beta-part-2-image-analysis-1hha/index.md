@@ -6,7 +6,7 @@ draft: false
 tags: ["android", "camerax", "kotlin"]
 canonicalURL: "https://dev.to/funkyidol/exploring-camerax-api-beta-part-2-image-analysis-1hha"
 ---
-*Update since the previous post: [Part 1](/blog/exploring-camerax-beta-release-part-1-19hh/)*
+*Update since the previous post: [Part 1](/blog/exploring-camerax-beta-part-1-basic-setup/)*
 Google has release a new beta update (1.0.0-beta4) to the CameraX api and one breaking change is that when setting the `createSurfaceProvider()` on the `viewFinder` we dont need to add the `cameraInfo` parameter. A very small and simple change that makes things a little more simpler.
 
 ```kotlin
